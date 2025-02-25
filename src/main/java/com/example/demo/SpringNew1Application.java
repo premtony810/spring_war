@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringNew1Application {
 	
-	@RequestMapping("/api")
+	@RequestMapping("/")
 	public String name() {
 		return "helloworld";
 	}
